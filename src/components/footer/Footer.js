@@ -1,7 +1,17 @@
-import React from "react";
+import React from 'react';
 
-function footer() {
-  return <div></div>;
+const Footer = () => {
+    return (
+        <div className="footer">
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-auto">
+                        <p>Bohubrihi Restaurant &#169; Copyright 2020</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
 }
 
-export default footer;
+export default Footer;
